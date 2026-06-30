@@ -1,0 +1,13 @@
+{
+  "name": "HSC 12th Maharashtra Board Study Hub",
+  "short_name": "HSC Study Hub",
+  "description": "Study companion for Maharashtra HSC (Std. XII) — syllabus, formulas, flashcards, timer & more.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#0e1018",
+  "theme_color": "#6c5ce7",
+  "icons": [
+    { "src": "assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

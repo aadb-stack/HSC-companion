@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "important": "This app does NOT host any textbook PDFs. Every link points to the official, free Government of Maharashtra / Balbharati portals. Please download only from these official sources.",
+    "lastVerified": "2026-06-30",
+    "verifiedBy": "manual"
+  },
+  "officialSources": [
+    { "name": "eBalbharati e-Book Portal (download all Std. XII books free)", "url": "https://cart.ebalbharati.in/BalBooks/ebook.aspx" },
+    { "name": "Balbharati — official textbook publisher", "url": "https://ebalbharati.in/" },
+    { "name": "Cyber Balbharati — digital learning resources", "url": "https://www.cyberbalbharati.in/" },
+    { "name": "MSBSHSE — HSC Board official website", "url": "https://mahahsscboard.in/" }
+  ],
+  "subjects": {
+    "physics": {
+      "name": "Physics",
+      "textbook": "Physics — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → choose Medium → Std. 12th → Science → Physics."
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "textbook": "Chemistry — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Science → Chemistry."
+    },
+    "maths": {
+      "name": "Mathematics & Statistics",
+      "textbook": "Mathematics & Statistics (Part I & II) — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Two parts (I and II). Open the portal → Std. 12th → Science / Arts & Science."
+    },
+    "biology": {
+      "name": "Biology",
+      "textbook": "Biology — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Science → Biology."
+    },
+    "accounts": {
+      "name": "Book-Keeping & Accountancy",
+      "textbook": "Book-Keeping and Accountancy — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Commerce → Book-Keeping & Accountancy."
+    },
+    "ocm": {
+      "name": "Organisation of Commerce & Management",
+      "textbook": "Organisation of Commerce and Management — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Commerce → OCM."
+    },
+    "economics": {
+      "name": "Economics",
+      "textbook": "Economics — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Shared by Commerce and Arts streams."
+    },
+    "sp": {
+      "name": "Secretarial Practice",
+      "textbook": "Secretarial Practice — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Commerce → Secretarial Practice."
+    },
+    "maths_commerce": {
+      "name": "Mathematics & Statistics (Commerce)",
+      "textbook": "Mathematics & Statistics (Commerce) Part I & II — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Commerce variant of the Maths textbook."
+    },
+    "history": {
+      "name": "History",
+      "textbook": "History — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Arts → History."
+    },
+    "polsci": {
+      "name": "Political Science",
+      "textbook": "Political Science — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Arts → Political Science."
+    },
+    "geography": {
+      "name": "Geography",
+      "textbook": "Geography — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Arts → Geography."
+    },
+    "sociology": {
+      "name": "Sociology",
+      "textbook": "Sociology — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Arts → Sociology."
+    },
+    "psychology": {
+      "name": "Psychology",
+      "textbook": "Psychology — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Open the portal → Std. 12th → Arts → Psychology."
+    },
+    "english": {
+      "name": "English (Yuvakbharati)",
+      "textbook": "Yuvakbharati English — Std. XII (Balbharati)",
+      "portal": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "note": "Compulsory across all streams."
+    }
+  }
+}

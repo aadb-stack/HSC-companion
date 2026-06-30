@@ -1,0 +1,24 @@
+rules_version = '2';
+
+// Firestore security rules for the HSC Study Hub.
+// Paste these into:  Firebase Console → Build → Firestore Database → Rules → Publish
+//
+// The rule is simple and safe: every signed-in user (including anonymous guests)
+// can read and write ONLY their own document tree under  users/{their-uid}.
+// Nobody can read anybody else's data.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // All sub-collections (flashcards, sessions, …) inherit the same rule.
+      match /{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // Everything else is denied by default.
+  }
+}

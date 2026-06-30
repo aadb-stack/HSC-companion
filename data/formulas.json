@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "source": "MSBSHSE Std. XII (HSC) syllabus. Expressions use plain Unicode so they render without any math library.",
+    "note": "This is a study aid. Always cross-check with your Balbharati textbook before exams."
+  },
+  "subjects": {
+    "physics": {
+      "name": "Physics",
+      "topics": [
+        {
+          "topic": "Rotational Dynamics",
+          "formulas": [
+            { "name": "Moment of inertia", "expr": "I = Σ mᵢ rᵢ²", "desc": "Sum of mass × (distance from axis)² for all particles." },
+            { "name": "Radius of gyration", "expr": "K = √(I / M)", "desc": "I = MK². Distance from axis at which whole mass seems concentrated." },
+            { "name": "Angular momentum", "expr": "L = I ω", "desc": "Conserved when net external torque is zero." },
+            { "name": "Torque", "expr": "τ = I α", "desc": "Rotational analogue of F = ma." },
+            { "name": "Rotational K.E.", "expr": "KE = ½ I ω²", "desc": "Kinetic energy of a rotating body." },
+            { "name": "Centripetal force", "expr": "F = m v² / r = m ω² r", "desc": "Net inward force for circular motion." },
+            { "name": "Banking angle (no friction)", "expr": "tan θ = v² / (r g)", "desc": "Ideal banking angle of a curved road/track." },
+            { "name": "Conical pendulum period", "expr": "T = 2π √(L cosθ / g)", "desc": "L = string length, θ = semi-vertical angle." },
+            { "name": "K.E. of rolling body", "expr": "KE = ½ m v² (1 + K²/R²)", "desc": "Total = translational + rotational KE." },
+            { "name": "M.I. of standard bodies", "expr": "Ring MR²,  Disc ½MR²,  Solid sphere ⅖MR²,  Rod ML²/12", "desc": "About the central axis (rod about centre ⊥ length)." }
+          ]
+        },
+        {
+          "topic": "Mechanical Properties of Fluids",
+          "formulas": [
+            { "name": "Pressure at depth", "expr": "P = P₀ + h ρ g", "desc": "Absolute pressure h below a free surface." },
+            { "name": "Surface tension", "expr": "T = F / L", "desc": "Force per unit length on a surface." },
+            { "name": "Excess pressure (drop)", "expr": "P = 2T / r", "desc": "Inside a liquid drop (one surface)." },
+            { "name": "Excess pressure (bubble)", "expr": "P = 4T / r", "desc": "Soap bubble has two surfaces." },
+            { "name": "Capillary rise", "expr": "h = 2T cosθ / (r ρ g)", "desc": "Height of liquid in a capillary of radius r." },
+            { "name": "Stokes' law", "expr": "F = 6π η r v", "desc": "Viscous drag on a small sphere." },
+            { "name": "Terminal velocity", "expr": "v = 2 r² (ρ − σ) g / (9 η)", "desc": "ρ = sphere density, σ = fluid density." },
+            { "name": "Equation of continuity", "expr": "A₁ v₁ = A₂ v₂", "desc": "Conservation of mass for incompressible flow." },
+            { "name": "Bernoulli's equation", "expr": "P + ½ ρ v² + ρ g h = constant", "desc": "Energy conservation along a streamline." },
+            { "name": "Reynolds number", "expr": "Re = ρ v d / η", "desc": "Re < 1000 laminar, > 2000 turbulent." }
+          ]
+        },
+        {
+          "topic": "Kinetic Theory of Gases & Radiation",
+          "formulas": [
+            { "name": "Ideal gas equation", "expr": "P V = n R T", "desc": "n = number of moles, R = 8.314 J/mol·K." },
+            { "name": "Pressure of gas", "expr": "P = ⅓ ρ c̄²", "desc": "c̄² = mean square speed, ρ = density." },
+            { "name": "Mean K.E. per molecule", "expr": "KE = (3/2) k T", "desc": "k = Boltzmann constant 1.38×10⁻²³ J/K." },
+            { "name": "RMS speed", "expr": "v_rms = √(3RT/M) = √(3kT/m)", "desc": "Root-mean-square molecular speed." },
+            { "name": "Mean free path", "expr": "λ = k T / (√2 π d² P)", "desc": "Average distance between molecular collisions." },
+            { "name": "Stefan–Boltzmann law", "expr": "Q = ε σ A T⁴", "desc": "σ = 5.67×10⁻⁸ W/m²K⁴." },
+            { "name": "Wien's displacement law", "expr": "λ_m T = b", "desc": "b = 2.897×10⁻³ m·K." },
+            { "name": "Kirchhoff's law of radiation", "expr": "a = e", "desc": "Good absorbers are good emitters." }
+          ]
+        },
+        {
+          "topic": "Thermodynamics",
+          "formulas": [
+            { "name": "First law", "expr": "Q = ΔU + W", "desc": "Heat = change in internal energy + work done by gas." },
+            { "name": "Work done (isobaric)", "expr": "W = P ΔV", "desc": "At constant pressure." },
+            { "name": "Work done (isothermal)", "expr": "W = n R T ln(V₂/V₁)", "desc": "Constant temperature expansion/compression." },
+            { "name": "Mayer's relation", "expr": "Cp − Cv = R", "desc": "For one mole of an ideal gas." },
+            { "name": "Adiabatic process", "expr": "P V^γ = constant", "desc": "Also T V^(γ−1) = constant, γ = Cp/Cv." },
+            { "name": "Heat engine efficiency", "expr": "η = 1 − Q₂/Q₁ = W/Q₁", "desc": "Fraction of heat converted to work." },
+            { "name": "Carnot efficiency", "expr": "η = 1 − T₂/T₁", "desc": "Maximum possible efficiency (temperatures in K)." },
+            { "name": "COP of refrigerator", "expr": "K = T₂ / (T₁ − T₂)", "desc": "Coefficient of performance." }
+          ]
+        },
+        {
+          "topic": "Oscillations",
+          "formulas": [
+            { "name": "Displacement in SHM", "expr": "x = A sin(ωt + φ)", "desc": "A = amplitude, φ = phase constant." },
+            { "name": "Velocity in SHM", "expr": "v = ω √(A² − x²)", "desc": "v_max = Aω at mean position." },
+            { "name": "Acceleration in SHM", "expr": "a = − ω² x", "desc": "a_max = Aω² at extreme position." },
+            { "name": "Period (spring)", "expr": "T = 2π √(m / k)", "desc": "k = force constant." },
+            { "name": "Simple pendulum", "expr": "T = 2π √(L / g)", "desc": "For small angular amplitude." },
+            { "name": "Total energy in SHM", "expr": "E = ½ m ω² A² = ½ k A²", "desc": "Constant throughout the motion." }
+          ]
+        },
+        {
+          "topic": "Superposition of Waves",
+          "formulas": [
+            { "name": "Wave speed", "expr": "v = f λ", "desc": "Relates speed, frequency, wavelength." },
+            { "name": "Speed on a string", "expr": "v = √(T / μ)", "desc": "T = tension, μ = linear mass density." },
+            { "name": "String harmonics", "expr": "fₙ = n v / 2L", "desc": "n = 1,2,3… fixed at both ends." },
+            { "name": "Open pipe", "expr": "fₙ = n v / 2L", "desc": "All harmonics present." },
+            { "name": "Closed pipe", "expr": "fₙ = (2n − 1) v / 4L", "desc": "Only odd harmonics present." },
+            { "name": "Beats", "expr": "f_beat = | f₁ − f₂ |", "desc": "Number of beats per second." }
+          ]
+        },
+        {
+          "topic": "Wave Optics",
+          "formulas": [
+            { "name": "Constructive interference", "expr": "Δ = n λ", "desc": "Path difference for bright fringe." },
+            { "name": "Destructive interference", "expr": "Δ = (2n − 1) λ / 2", "desc": "Path difference for dark fringe." },
+            { "name": "Fringe width (YDSE)", "expr": "β = λ D / d", "desc": "D = slit-to-screen, d = slit separation." },
+            { "name": "Brewster's law", "expr": "tan θ_p = μ", "desc": "Polarising angle for refractive index μ." },
+            { "name": "Malus's law", "expr": "I = I₀ cos²θ", "desc": "Intensity through a polariser." }
+          ]
+        },
+        {
+          "topic": "Electrostatics",
+          "formulas": [
+            { "name": "Coulomb's law", "expr": "F = (1/4πε₀) · q₁q₂ / r²", "desc": "1/4πε₀ = 9×10⁹ N·m²/C²." },
+            { "name": "Electric field (point charge)", "expr": "E = (1/4πε₀) · q / r²", "desc": "E = F/q₀." },
+            { "name": "Electric potential", "expr": "V = (1/4πε₀) · q / r", "desc": "Work per unit charge from infinity." },
+            { "name": "Dipole moment", "expr": "p = q × 2l", "desc": "Directed from −q to +q." },
+            { "name": "Torque on a dipole", "expr": "τ = p E sinθ", "desc": "In a uniform field E." },
+            { "name": "Parallel-plate capacitance", "expr": "C = κ ε₀ A / d", "desc": "κ = dielectric constant." },
+            { "name": "Energy in a capacitor", "expr": "U = ½ C V² = Q² / 2C", "desc": "Energy stored in the field." },
+            { "name": "Gauss's law", "expr": "Φ = q_enclosed / ε₀", "desc": "Total electric flux through a closed surface." }
+          ]
+        },
+        {
+          "topic": "Current Electricity",
+          "formulas": [
+            { "name": "Ohm's law", "expr": "V = I R", "desc": "For ohmic conductors at constant T." },
+            { "name": "Resistance of a wire", "expr": "R = ρ L / A", "desc": "ρ = resistivity." },
+            { "name": "Drift velocity", "expr": "I = n A e v_d", "desc": "n = free electron density." },
+            { "name": "Wheatstone bridge (balanced)", "expr": "P / Q = R / S", "desc": "No current through galvanometer." },
+            { "name": "EMF and terminal P.D.", "expr": "E = V + I r", "desc": "r = internal resistance." },
+            { "name": "Resistors in series / parallel", "expr": "R_s = ΣRᵢ ,  1/R_p = Σ 1/Rᵢ", "desc": "Combination rules." }
+          ]
+        },
+        {
+          "topic": "Magnetism & Magnetic Effects",
+          "formulas": [
+            { "name": "Biot–Savart law", "expr": "dB = (μ₀/4π) · I dl sinθ / r²", "desc": "Field due to a current element." },
+            { "name": "Field near a long wire", "expr": "B = μ₀ I / (2π r)", "desc": "Straight infinite conductor." },
+            { "name": "Field at centre of loop", "expr": "B = μ₀ I / (2R)", "desc": "Circular loop of radius R." },
+            { "name": "Field inside a solenoid", "expr": "B = μ₀ n I", "desc": "n = turns per unit length." },
+            { "name": "Force on a conductor", "expr": "F = B I L sinθ", "desc": "Current-carrying wire in field B." },
+            { "name": "Force on a moving charge", "expr": "F = q v B sinθ", "desc": "Lorentz magnetic force." },
+            { "name": "Cyclotron frequency", "expr": "f = q B / (2π m)", "desc": "Independent of radius." },
+            { "name": "Magnetic susceptibility", "expr": "χ = M / H ,  μ_r = 1 + χ", "desc": "Relates magnetisation and field intensity." }
+          ]
+        },
+        {
+          "topic": "Electromagnetic Induction & AC",
+          "formulas": [
+            { "name": "Magnetic flux", "expr": "Φ = B A cosθ", "desc": "Through a coil of area A." },
+            { "name": "Faraday's law", "expr": "e = − N dΦ/dt", "desc": "Induced EMF in an N-turn coil." },
+            { "name": "Motional EMF", "expr": "e = B L v", "desc": "Rod moving ⊥ to field." },
+            { "name": "Self inductance", "expr": "e = − L dI/dt ,  U = ½ L I²", "desc": "Energy stored in an inductor." },
+            { "name": "RMS values", "expr": "I_rms = I₀/√2 ,  V_rms = V₀/√2", "desc": "For sinusoidal AC." },
+            { "name": "Reactances", "expr": "X_L = ωL ,  X_C = 1/(ωC)", "desc": "Inductive and capacitive reactance." },
+            { "name": "Impedance (LCR)", "expr": "Z = √(R² + (X_L − X_C)²)", "desc": "Total opposition in a series LCR circuit." },
+            { "name": "Resonant frequency", "expr": "f₀ = 1 / (2π √(LC))", "desc": "X_L = X_C at resonance." },
+            { "name": "AC power", "expr": "P = V_rms I_rms cosφ", "desc": "cosφ = R/Z = power factor." }
+          ]
+        },
+        {
+          "topic": "Modern Physics",
+          "formulas": [
+            { "name": "Photon energy", "expr": "E = h ν = h c / λ", "desc": "h = 6.63×10⁻³⁴ J·s." },
+            { "name": "Photoelectric equation", "expr": "KE_max = h ν − φ₀", "desc": "φ₀ = work function." },
+            { "name": "Stopping potential", "expr": "e V₀ = KE_max", "desc": "Potential that stops fastest photoelectron." },
+            { "name": "de Broglie wavelength", "expr": "λ = h / p = h / √(2 m KE)", "desc": "Matter waves." },
+            { "name": "Bohr energy levels", "expr": "Eₙ = − 13.6 / n²  eV", "desc": "Hydrogen atom." },
+            { "name": "Rydberg formula", "expr": "1/λ = R (1/n₁² − 1/n₂²)", "desc": "R = 1.097×10⁷ m⁻¹." },
+            { "name": "Nuclear radius", "expr": "R = R₀ A^(1/3)", "desc": "R₀ = 1.2×10⁻¹⁵ m." },
+            { "name": "Radioactive decay", "expr": "N = N₀ e^(−λt) ,  T½ = 0.693/λ", "desc": "λ = decay constant." },
+            { "name": "Mass–energy", "expr": "E = m c²", "desc": "Binding energy = Δm·c²." },
+            { "name": "Transistor currents", "expr": "I_E = I_B + I_C ,  β = I_C/I_B", "desc": "β = current gain in CE mode." }
+          ]
+        }
+      ]
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "topics": [
+        {
+          "topic": "Solid State",
+          "formulas": [
+            { "name": "Density of unit cell", "expr": "ρ = (z · M) / (a³ · N_A)", "desc": "z = atoms per cell, a = edge length, N_A = 6.022×10²³." },
+            { "name": "Atoms per unit cell", "expr": "SC = 1 ,  BCC = 2 ,  FCC = 4", "desc": "Effective number of atoms." },
+            { "name": "Edge–radius relation", "expr": "SC a=2r ,  BCC √3a=4r ,  FCC √2a=4r", "desc": "Relates edge length and atomic radius." },
+            { "name": "Packing efficiency", "expr": "SC 52.4% ,  BCC 68% ,  FCC/HCP 74%", "desc": "Fraction of space occupied." }
+          ]
+        },
+        {
+          "topic": "Solutions",
+          "formulas": [
+            { "name": "Molarity", "expr": "M = moles of solute / litre of solution", "desc": "Temperature dependent." },
+            { "name": "Molality", "expr": "m = moles of solute / kg of solvent", "desc": "Temperature independent." },
+            { "name": "Raoult's law", "expr": "p = p° · x_solvent", "desc": "Vapour pressure of a solution." },
+            { "name": "Elevation in boiling point", "expr": "ΔT_b = K_b · m", "desc": "K_b = molal elevation constant." },
+            { "name": "Depression in freezing point", "expr": "ΔT_f = K_f · m", "desc": "K_f = molal depression constant." },
+            { "name": "Osmotic pressure", "expr": "π = (n/V) R T = C R T", "desc": "C = molar concentration." },
+            { "name": "van't Hoff factor", "expr": "i = observed / normal colligative property", "desc": "Accounts for association/dissociation." }
+          ]
+        },
+        {
+          "topic": "Ionic Equilibria",
+          "formulas": [
+            { "name": "Ionic product of water", "expr": "K_w = [H⁺][OH⁻] = 10⁻¹⁴", "desc": "At 25 °C." },
+            { "name": "pH and pOH", "expr": "pH = − log[H⁺] ,  pH + pOH = 14", "desc": "Measure of acidity/basicity." },
+            { "name": "Ostwald's dilution law", "expr": "K_a = c α² / (1 − α)", "desc": "α = degree of dissociation." },
+            { "name": "Henderson equation", "expr": "pH = pK_a + log([salt]/[acid])", "desc": "Buffer solution pH." },
+            { "name": "Solubility product", "expr": "K_sp = [Aⁿ⁺][Bⁿ⁻]", "desc": "For a sparingly soluble salt." }
+          ]
+        },
+        {
+          "topic": "Chemical Thermodynamics",
+          "formulas": [
+            { "name": "First law", "expr": "ΔU = Q + W", "desc": "W = − P_ext ΔV (work done on system)." },
+            { "name": "Enthalpy", "expr": "ΔH = ΔU + Δn_g R T", "desc": "Δn_g = change in moles of gas." },
+            { "name": "Gibbs free energy", "expr": "ΔG = ΔH − T ΔS", "desc": "ΔG < 0 → spontaneous." },
+            { "name": "Free energy & equilibrium", "expr": "ΔG° = − R T ln K", "desc": "Relates ΔG° to equilibrium constant." },
+            { "name": "Entropy change", "expr": "ΔS = Q_rev / T", "desc": "For a reversible process." }
+          ]
+        },
+        {
+          "topic": "Electrochemistry",
+          "formulas": [
+            { "name": "Nernst equation", "expr": "E = E° − (0.0592/n) log Q", "desc": "At 298 K." },
+            { "name": "Cell EMF", "expr": "E°cell = E°cathode − E°anode", "desc": "Standard cell potential." },
+            { "name": "Gibbs energy of cell", "expr": "ΔG° = − n F E°cell", "desc": "F = 96500 C/mol." },
+            { "name": "Molar conductivity", "expr": "Λ_m = κ × 1000 / c", "desc": "κ = conductivity, c = molarity." },
+            { "name": "Faraday's law", "expr": "m = (M · I · t) / (n · F)", "desc": "Mass deposited in electrolysis." },
+            { "name": "EMF & equilibrium constant", "expr": "log K = n E° / 0.0592", "desc": "Links E° and K." }
+          ]
+        },
+        {
+          "topic": "Chemical Kinetics",
+          "formulas": [
+            { "name": "Rate law", "expr": "Rate = k [A]^x [B]^y", "desc": "Order = x + y." },
+            { "name": "First-order rate constant", "expr": "k = (2.303/t) log([A]₀/[A])", "desc": "Units s⁻¹." },
+            { "name": "First-order half-life", "expr": "t½ = 0.693 / k", "desc": "Independent of initial concentration." },
+            { "name": "Zero-order rate constant", "expr": "k = ([A]₀ − [A]) / t", "desc": "t½ = [A]₀ / 2k." },
+            { "name": "Arrhenius equation", "expr": "k = A e^(−Ea/RT)", "desc": "Ea = activation energy." },
+            { "name": "Arrhenius (two temps)", "expr": "log(k₂/k₁) = (Ea/2.303R)(1/T₁ − 1/T₂)", "desc": "Effect of temperature on rate." }
+          ]
+        }
+      ]
+    },
+    "maths": {
+      "name": "Mathematics & Statistics",
+      "topics": [
+        {
+          "topic": "Trigonometric Functions",
+          "formulas": [
+            { "name": "Pythagorean identities", "expr": "sin²θ + cos²θ = 1 ;  1 + tan²θ = sec²θ", "desc": "Fundamental identities." },
+            { "name": "Compound angles", "expr": "sin(A±B) = sinA cosB ± cosA sinB", "desc": "Also cos(A±B) = cosA cosB ∓ sinA sinB." },
+            { "name": "Inverse relation", "expr": "sin⁻¹x + cos⁻¹x = π/2", "desc": "Principal values." },
+            { "name": "Sine rule", "expr": "a/sinA = b/sinB = c/sinC = 2R", "desc": "R = circumradius." },
+            { "name": "Cosine rule", "expr": "c² = a² + b² − 2ab cosC", "desc": "Generalised Pythagoras." }
+          ]
+        },
+        {
+          "topic": "Matrices",
+          "formulas": [
+            { "name": "Inverse of a matrix", "expr": "A⁻¹ = adj(A) / |A|", "desc": "Exists when |A| ≠ 0." },
+            { "name": "Reversal law", "expr": "(AB)⁻¹ = B⁻¹ A⁻¹", "desc": "Order reverses on inversion." },
+            { "name": "Identity property", "expr": "A A⁻¹ = A⁻¹ A = I", "desc": "Definition of inverse." }
+          ]
+        },
+        {
+          "topic": "Vectors",
+          "formulas": [
+            { "name": "Dot product", "expr": "a · b = |a| |b| cosθ", "desc": "Scalar; zero if perpendicular." },
+            { "name": "Cross product", "expr": "|a × b| = |a| |b| sinθ", "desc": "Vector ⊥ to both a and b." },
+            { "name": "Projection of a on b", "expr": "(a · b) / |b|", "desc": "Scalar component." },
+            { "name": "Scalar triple product", "expr": "[a b c] = a · (b × c)", "desc": "Volume of parallelepiped." },
+            { "name": "Area of triangle", "expr": "Area = ½ |a × b|", "desc": "a, b are two sides as vectors." }
+          ]
+        },
+        {
+          "topic": "Differentiation",
+          "formulas": [
+            { "name": "Power rule", "expr": "d/dx (xⁿ) = n x^(n−1)", "desc": "Basic derivative." },
+            { "name": "Product rule", "expr": "(uv)' = u'v + uv'", "desc": "Derivative of a product." },
+            { "name": "Quotient rule", "expr": "(u/v)' = (u'v − uv') / v²", "desc": "Derivative of a quotient." },
+            { "name": "Chain rule", "expr": "dy/dx = (dy/du)(du/dx)", "desc": "Composite functions." },
+            { "name": "Standard derivatives", "expr": "d/dx(eˣ)=eˣ ,  d/dx(ln x)=1/x ,  d/dx(sin x)=cos x", "desc": "Memorise these." }
+          ]
+        },
+        {
+          "topic": "Applications of Derivatives",
+          "formulas": [
+            { "name": "Increasing / decreasing", "expr": "f'(x) > 0 increasing ;  f'(x) < 0 decreasing", "desc": "On an interval." },
+            { "name": "Maxima / minima", "expr": "f'(x)=0 ;  f''(x)<0 max, f''(x)>0 min", "desc": "Second-derivative test." },
+            { "name": "Approximation", "expr": "f(x+δx) ≈ f(x) + f'(x) δx", "desc": "Small change approximation." }
+          ]
+        },
+        {
+          "topic": "Integration",
+          "formulas": [
+            { "name": "Power rule", "expr": "∫ xⁿ dx = x^(n+1)/(n+1) + c", "desc": "n ≠ −1." },
+            { "name": "Reciprocal", "expr": "∫ (1/x) dx = ln|x| + c", "desc": "Logarithmic integral." },
+            { "name": "Exponential & trig", "expr": "∫eˣdx = eˣ ,  ∫sin x dx = −cos x", "desc": "Standard integrals." },
+            { "name": "Arctan form", "expr": "∫ dx/(x²+a²) = (1/a) tan⁻¹(x/a) + c", "desc": "Common substitution result." },
+            { "name": "Arcsin form", "expr": "∫ dx/√(a²−x²) = sin⁻¹(x/a) + c", "desc": "Standard form." },
+            { "name": "Integration by parts", "expr": "∫ u v dx = u ∫v dx − ∫ (u' ∫v dx) dx", "desc": "ILATE rule for choosing u." }
+          ]
+        },
+        {
+          "topic": "Definite Integration",
+          "formulas": [
+            { "name": "Fundamental theorem", "expr": "∫ₐᵇ f(x) dx = F(b) − F(a)", "desc": "F = antiderivative of f." },
+            { "name": "Reflection property", "expr": "∫₀ᵃ f(x)dx = ∫₀ᵃ f(a−x)dx", "desc": "Useful king-property." },
+            { "name": "Even / odd functions", "expr": "∫₋ₐᵃ f = 2∫₀ᵃ f (even), 0 (odd)", "desc": "About a symmetric interval." }
+          ]
+        },
+        {
+          "topic": "Differential Equations",
+          "formulas": [
+            { "name": "Variable separable", "expr": "∫ dy/g(y) = ∫ f(x) dx", "desc": "When dy/dx = f(x) g(y)." },
+            { "name": "Linear differential equation", "expr": "dy/dx + P y = Q", "desc": "First-order linear form." },
+            { "name": "Integrating factor", "expr": "I.F. = e^(∫P dx) ;  y·(I.F.) = ∫Q·(I.F.) dx", "desc": "Solution of a linear DE." }
+          ]
+        },
+        {
+          "topic": "Probability Distributions",
+          "formulas": [
+            { "name": "Expected value", "expr": "E(X) = Σ x · P(x)", "desc": "Mean of a distribution." },
+            { "name": "Variance", "expr": "Var(X) = E(X²) − [E(X)]²", "desc": "Spread of the distribution." },
+            { "name": "Binomial probability", "expr": "P(X=r) = ⁿCr pʳ q^(n−r)", "desc": "q = 1 − p." },
+            { "name": "Binomial mean & variance", "expr": "Mean = np ,  Variance = npq", "desc": "SD = √(npq)." }
+          ]
+        }
+      ]
+    },
+    "accounts": {
+      "name": "Book-Keeping & Accountancy",
+      "topics": [
+        {
+          "topic": "Cost & Profit",
+          "formulas": [
+            { "name": "Cost of goods sold", "expr": "COGS = Opening Stock + Purchases + Direct Exp − Closing Stock", "desc": "Used in trading account." },
+            { "name": "Gross profit", "expr": "Gross Profit = Net Sales − COGS", "desc": "Trading account result." },
+            { "name": "Net sales", "expr": "Net Sales = Sales − Sales Returns", "desc": "Revenue from operations." }
+          ]
+        },
+        {
+          "topic": "Financial Ratios (Analysis of Financial Statements)",
+          "formulas": [
+            { "name": "Gross profit ratio", "expr": "GP Ratio = (Gross Profit / Net Sales) × 100", "desc": "Profitability of trading." },
+            { "name": "Net profit ratio", "expr": "NP Ratio = (Net Profit / Net Sales) × 100", "desc": "Overall profitability." },
+            { "name": "Current ratio", "expr": "Current Ratio = Current Assets / Current Liabilities", "desc": "Ideal ≈ 2 : 1." },
+            { "name": "Liquid (quick) ratio", "expr": "Liquid Ratio = Liquid Assets / Current Liabilities", "desc": "Ideal ≈ 1 : 1; excludes stock & prepaid exp." },
+            { "name": "Stock turnover ratio", "expr": "Stock Turnover = COGS / Average Stock", "desc": "Times stock is sold in a year." },
+            { "name": "Return on capital employed", "expr": "ROCE = (Net Profit before Int. & Tax / Capital Employed) × 100", "desc": "Efficiency of capital use." },
+            { "name": "Proprietary ratio", "expr": "Proprietary Ratio = Proprietors' Funds / Total Assets", "desc": "Long-term solvency." }
+          ]
+        },
+        {
+          "topic": "Partnership",
+          "formulas": [
+            { "name": "Interest on capital", "expr": "Interest = Capital × Rate × (Months/12)", "desc": "Appropriation of profit." },
+            { "name": "Gaining ratio", "expr": "Gaining Ratio = New Ratio − Old Ratio", "desc": "On retirement/death of a partner." },
+            { "name": "Sacrifice ratio", "expr": "Sacrifice Ratio = Old Ratio − New Ratio", "desc": "On admission of a partner." }
+          ]
+        }
+      ]
+    },
+    "maths_commerce": {
+      "name": "Mathematics & Statistics (Commerce)",
+      "topics": [
+        {
+          "topic": "Commercial Arithmetic",
+          "formulas": [
+            { "name": "Commission", "expr": "Commission = Rate × Sales / 100", "desc": "Earnings of an agent." },
+            { "name": "Discount (true)", "expr": "True Discount = (Amount × r × t) / (100 + r t)", "desc": "On a bill before due date." },
+            { "name": "Banker's discount", "expr": "B.D. = Amount × r × t / 100", "desc": "Simple interest on face value." }
+          ]
+        },
+        {
+          "topic": "Statistics",
+          "formulas": [
+            { "name": "Regression coefficient", "expr": "b_yx = r · (σ_y / σ_x)", "desc": "Slope of regression of y on x." },
+            { "name": "Correlation & regression", "expr": "r² = b_xy · b_yx", "desc": "Geometric mean of regression coefficients." },
+            { "name": "Laspeyre's index", "expr": "P₀₁ = (Σ p₁ q₀ / Σ p₀ q₀) × 100", "desc": "Base-year weighted price index." },
+            { "name": "Paasche's index", "expr": "P₀₁ = (Σ p₁ q₁ / Σ p₀ q₁) × 100", "desc": "Current-year weighted price index." }
+          ]
+        },
+        {
+          "topic": "Probability Distributions",
+          "formulas": [
+            { "name": "Expected value", "expr": "E(X) = Σ x · P(x)", "desc": "Mean of the distribution." },
+            { "name": "Binomial distribution", "expr": "P(X=r) = ⁿCr pʳ q^(n−r), Mean = np", "desc": "Variance = npq." }
+          ]
+        }
+      ]
+    }
+  }
+}

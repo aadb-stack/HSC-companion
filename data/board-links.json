@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "description": "Official Maharashtra board sources. This file is automatically re-checked and timestamped by the 'check-board-updates' GitHub Action. When the workflow detects a change on a watched page, it updates the relevant entry and commits it.",
+    "lastChecked": "2026-06-30T00:00:00Z",
+    "lastCheckedBy": "manual-seed",
+    "autoUpdated": false
+  },
+  "sources": [
+    {
+      "id": "msbshse-hsc",
+      "name": "MSBSHSE — HSC Board (circulars, timetable, results)",
+      "url": "https://mahahsscboard.in/",
+      "category": "board",
+      "status": "active",
+      "lastSeenHash": null
+    },
+    {
+      "id": "msbshse-main",
+      "name": "MSBSHSE — Main board website",
+      "url": "https://www.msbshse.co.in/",
+      "category": "board",
+      "status": "active",
+      "lastSeenHash": null
+    },
+    {
+      "id": "ebalbharati",
+      "name": "Balbharati — official textbooks & model papers",
+      "url": "https://ebalbharati.in/",
+      "category": "textbooks",
+      "status": "active",
+      "lastSeenHash": null
+    },
+    {
+      "id": "ebalbharati-ebooks",
+      "name": "eBalbharati — free e-book download portal",
+      "url": "https://cart.ebalbharati.in/BalBooks/ebook.aspx",
+      "category": "textbooks",
+      "status": "active",
+      "lastSeenHash": null
+    },
+    {
+      "id": "cyberbalbharati",
+      "name": "Cyber Balbharati — digital learning resources",
+      "url": "https://www.cyberbalbharati.in/",
+      "category": "resources",
+      "status": "active",
+      "lastSeenHash": null
+    }
+  ],
+  "notices": []
+}

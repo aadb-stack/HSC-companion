@@ -1,0 +1,46 @@
+name: 📚 Content correction
+description: A chapter name, formula, syllabus item or official link is wrong or outdated.
+title: "[Content]: "
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accuracy matters for exams 🙏. Tell us what's wrong and (if you can) the correct version.
+        All study content lives in versioned JSON files under `/data`.
+  - type: dropdown
+    id: file
+    attributes:
+      label: Which content?
+      options:
+        - Syllabus / chapters (data/syllabus.json)
+        - Formula sheet (data/formulas.json)
+        - Subjects / streams (data/streams.json)
+        - Textbook links (data/textbooks.json)
+        - Past paper links (data/papers.json)
+        - Grading scheme (data/grading.json)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      placeholder: e.g. Physics, Book-Keeping & Accountancy
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's incorrect?
+      placeholder: "The chapter 'X' should be 'Y'…  /  The formula for Z is wrong…"
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: Correct version (if known)
+      placeholder: Paste the correct chapter name / formula / link.
+  - type: input
+    id: source
+    attributes:
+      label: Official source (optional)
+      placeholder: Link to the Balbharati / MSBSHSE page that confirms this.

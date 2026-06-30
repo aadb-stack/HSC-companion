@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "source": "Official MSBSHSE Std. XII (HSC) textbook chapter structure, academic year 2025-26.",
+    "note": "Chapter names follow the Balbharati Std. XII textbooks. Found an error? Open a 'Content correction' issue."
+  },
+  "subjects": {
+    "physics": {
+      "name": "Physics",
+      "chapters": [
+        "Rotational Dynamics",
+        "Mechanical Properties of Fluids",
+        "Kinetic Theory of Gases and Radiation",
+        "Thermodynamics",
+        "Oscillations",
+        "Superposition of Waves",
+        "Wave Optics",
+        "Electrostatics",
+        "Current Electricity",
+        "Magnetic Fields due to Electric Current",
+        "Magnetic Materials",
+        "Electromagnetic Induction",
+        "AC Circuits",
+        "Dual Nature of Radiation and Matter",
+        "Structure of Atoms and Nuclei",
+        "Semiconductor Devices"
+      ]
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "chapters": [
+        "Solid State",
+        "Solutions",
+        "Ionic Equilibria",
+        "Chemical Thermodynamics",
+        "Electrochemistry",
+        "Chemical Kinetics",
+        "Elements of Groups 16, 17 and 18",
+        "Transition and Inner Transition Elements",
+        "Coordination Compounds",
+        "Halogen Derivatives",
+        "Alcohols, Phenols and Ethers",
+        "Aldehydes, Ketones and Carboxylic Acids",
+        "Amines",
+        "Biomolecules",
+        "Introduction to Polymer Chemistry",
+        "Green Chemistry and Nanochemistry"
+      ]
+    },
+    "maths": {
+      "name": "Mathematics & Statistics",
+      "chapters": [
+        "Mathematical Logic",
+        "Matrices",
+        "Trigonometric Functions",
+        "Pair of Straight Lines",
+        "Vectors",
+        "Line and Plane",
+        "Linear Programming",
+        "Differentiation",
+        "Applications of Derivatives",
+        "Indefinite Integration",
+        "Definite Integration",
+        "Application of Definite Integration",
+        "Differential Equations",
+        "Probability Distributions",
+        "Binomial Distribution"
+      ]
+    },
+    "biology": {
+      "name": "Biology",
+      "chapters": [
+        "Reproduction in Lower and Higher Plants",
+        "Reproduction in Lower and Higher Animals",
+        "Inheritance and Variation",
+        "Molecular Basis of Inheritance",
+        "Origin and Evolution of Life",
+        "Plant Water Relation",
+        "Plant Growth and Mineral Nutrition",
+        "Respiration and Circulation",
+        "Control and Coordination",
+        "Human Health and Diseases",
+        "Enhancement in Food Production",
+        "Biotechnology",
+        "Organisms and Populations",
+        "Ecosystems and Energy Flow",
+        "Biodiversity, Conservation and Environmental Issues"
+      ]
+    },
+    "accounts": {
+      "name": "Book-Keeping & Accountancy",
+      "chapters": [
+        "Introduction to Partnership and Partnership Final Accounts",
+        "Accounts of 'Not for Profit' Concerns",
+        "Reconstitution of Partnership (Admission of Partner)",
+        "Reconstitution of Partnership (Retirement of Partner)",
+        "Reconstitution of Partnership (Death of Partner)",
+        "Dissolution of Partnership Firm",
+        "Bills of Exchange",
+        "Company Accounts - Issue of Shares",
+        "Analysis of Financial Statements",
+        "Computer in Accounting"
+      ]
+    },
+    "ocm": {
+      "name": "Organisation of Commerce & Management",
+      "chapters": [
+        "Principles of Management",
+        "Functions of Management",
+        "Entrepreneurship Development",
+        "Business Services",
+        "Emerging Modes of Business",
+        "Social Responsibilities of Business",
+        "Consumer Protection",
+        "Marketing"
+      ]
+    },
+    "economics": {
+      "name": "Economics",
+      "chapters": [
+        "Introduction to Micro and Macro Economics",
+        "Utility Analysis",
+        "Demand Analysis",
+        "Elasticity of Demand",
+        "Supply Analysis",
+        "Forms of Market",
+        "Index Numbers",
+        "National Income",
+        "Public Finance in India",
+        "Money Market and Capital Market in India",
+        "Foreign Trade of India"
+      ]
+    },
+    "sp": {
+      "name": "Secretarial Practice",
+      "chapters": [
+        "Introduction to Corporate Finance",
+        "Sources of Corporate Finance",
+        "Issue of Shares",
+        "Issue of Debentures",
+        "Deposits",
+        "Correspondence with Members",
+        "Correspondence with Debentureholders",
+        "Correspondence with Depositors",
+        "Depository System",
+        "Dividend and Interest"
+      ]
+    },
+    "maths_commerce": {
+      "name": "Mathematics & Statistics (Commerce)",
+      "chapters": [
+        "Mathematical Logic",
+        "Matrices",
+        "Differentiation",
+        "Applications of Derivatives",
+        "Integration",
+        "Definite Integration",
+        "Ratio, Proportion and Partnership",
+        "Commission, Brokerage and Discount",
+        "Insurance and Annuity",
+        "Linear Regression",
+        "Time Series",
+        "Index Numbers",
+        "Linear Programming",
+        "Assignment Problem and Sequencing",
+        "Probability Distributions"
+      ]
+    },
+    "history": {
+      "name": "History",
+      "chapters": [
+        "Renaissance in Europe and Development of Science",
+        "European Colonialism",
+        "India and European Colonialism",
+        "The Anti-Colonial Struggle in India",
+        "India: Achieving Independence",
+        "World Wars and India",
+        "The Cold War",
+        "India after Independence",
+        "Decolonisation to the Modern World",
+        "World in the Twentieth Century"
+      ]
+    },
+    "polsci": {
+      "name": "Political Science",
+      "chapters": [
+        "The Post World War Era (1945 to 1991)",
+        "Contemporary World (1991 onwards)",
+        "Major Issues in the Post Cold War Era",
+        "India's Foreign Policy",
+        "India and the World",
+        "Globalisation and India",
+        "Good Governance",
+        "International Organisations"
+      ]
+    },
+    "geography": {
+      "name": "Geography",
+      "chapters": [
+        "Population: Part 1 (Distribution and Density)",
+        "Population: Part 2 (Migration and Composition)",
+        "Human Settlements and Land Use",
+        "Primary Economic Activities",
+        "Secondary Economic Activities",
+        "Tertiary and Quaternary Economic Activities",
+        "Trade and Commerce",
+        "Transport and Communication",
+        "Tourism",
+        "Geographic Information System (GIS)"
+      ]
+    },
+    "sociology": {
+      "name": "Sociology",
+      "chapters": [
+        "Introduction to Indian Society",
+        "Diversity and Unity in Indian Society",
+        "Social Stratification",
+        "Social Institutions",
+        "Social Change in India",
+        "Social Movements",
+        "Major Social Problems in India",
+        "Globalisation and Society"
+      ]
+    },
+    "psychology": {
+      "name": "Psychology",
+      "chapters": [
+        "Intelligence",
+        "Personality",
+        "Stress and Health",
+        "Psychological Disorders",
+        "Emotions",
+        "Psychology of Social Behaviour",
+        "Healthy Mind",
+        "Psychology and Modern Life"
+      ]
+    },
+    "english": {
+      "name": "English (Yuvakbharati)",
+      "chapters": [
+        "Section 1: Prose",
+        "Section 2: Poetry",
+        "Section 3: Writing Skills",
+        "Section 4: Genre - Novel",
+        "Grammar and Vocabulary",
+        "Oral / Listening Skills"
+      ]
+    }
+  }
+}

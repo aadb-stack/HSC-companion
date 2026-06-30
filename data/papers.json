@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "important": "Links point to official MSBSHSE / Balbharati portals only. The board publishes question papers and model papers on its official websites.",
+    "officialPortals": [
+      { "name": "MSBSHSE — HSC Board (papers & circulars)", "url": "https://mahahsscboard.in/" },
+      { "name": "MSBSHSE — main board site", "url": "https://www.msbshse.co.in/" },
+      { "name": "Balbharati — model question papers & PSST", "url": "https://ebalbharati.in/" }
+    ],
+    "years": ["2025", "2024", "2023", "2022", "2020", "2019"],
+    "note": "Direct per-paper PDF links change every year; the board re-hosts them. The 'check-board-updates' GitHub Action periodically re-checks these portals. Use the portal link and select Std. 12th → your subject → year."
+  },
+  "subjects": {
+    "physics": {
+      "name": "Physics",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "maths": {
+      "name": "Mathematics & Statistics",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "biology": {
+      "name": "Biology",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "accounts": {
+      "name": "Book-Keeping & Accountancy",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "ocm": {
+      "name": "Organisation of Commerce & Management",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "economics": {
+      "name": "Economics",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "sp": {
+      "name": "Secretarial Practice",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "maths_commerce": {
+      "name": "Mathematics & Statistics (Commerce)",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "history": {
+      "name": "History",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "polsci": {
+      "name": "Political Science",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "geography": {
+      "name": "Geography",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "sociology": {
+      "name": "Sociology",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "psychology": {
+      "name": "Psychology",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    },
+    "english": {
+      "name": "English",
+      "portal": "https://mahahsscboard.in/",
+      "resources": [
+        { "label": "Official HSC Question Papers (Board portal)", "url": "https://mahahsscboard.in/" },
+        { "label": "Balbharati Model / Practice Papers", "url": "https://ebalbharati.in/" }
+      ]
+    }
+  }
+}

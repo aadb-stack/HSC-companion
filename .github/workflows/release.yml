@@ -1,0 +1,69 @@
+name: Publish release
+
+# Push a version tag (e.g. v1.1.0) and this drafts a GitHub Release using the
+# matching section of CHANGELOG.md as the notes. The in-app "What's new" page
+# reads these releases live via the GitHub API.
+#
+#   git tag v1.1.0 && git push origin v1.1.0
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to release (e.g. v1.0.0)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve tag
+        id: tag
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            TAG="${{ github.event.inputs.tag }}"
+          fi
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Extract changelog section
+        id: notes
+        run: |
+          TAG="${{ steps.tag.outputs.tag }}"
+          VER="${TAG#v}"
+          # Pull the matching "## [VER]" block out of CHANGELOG.md, if present.
+          python3 - "$VER" <<'PY' > release-notes.md || true
+          import re, sys
+          ver = sys.argv[1]
+          try:
+              text = open("CHANGELOG.md", encoding="utf-8").read()
+          except FileNotFoundError:
+              sys.exit(0)
+          # match "## [1.0.0]" ... up to the next "## ["
+          m = re.search(r"^##\s*\[?" + re.escape(ver) + r"\]?.*?$(.*?)(?=^##\s*\[|\Z)",
+                        text, re.S | re.M)
+          if m:
+              print(m.group(1).strip())
+          PY
+          if [[ ! -s release-notes.md ]]; then
+            echo "Release $TAG of the HSC Maharashtra Board Study Hub." > release-notes.md
+          fi
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${{ steps.tag.outputs.tag }}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --notes-file release-notes.md --title "$TAG"
+          else
+            gh release create "$TAG" --title "$TAG" --notes-file release-notes.md
+          fi

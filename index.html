@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>HSC 12th Maharashtra Board Study Hub</title>
+  <meta name="description" content="A free, motivating study companion for Maharashtra HSC (Std. XII) students — syllabus tracker, formula sheet, flashcards, Pomodoro timer, official textbooks & past papers, and a GPA calculator." />
+  <meta name="theme-color" content="#6c5ce7" />
+  <meta name="color-scheme" content="light dark" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="HSC 12th Maharashtra Board Study Hub" />
+  <meta property="og:description" content="Everything a Maharashtra HSC student needs in one place — free and open source." />
+  <meta property="og:type" content="website" />
+
+  <!-- Avoid theme flash: apply saved theme before CSS paints -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("hsc:theme");
+        if (!t) t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Inline SVG favicon (graduation cap) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%236c5ce7'/%3E%3Ctext x='50' y='68' font-size='56' text-anchor='middle'%3E%F0%9F%8E%93%3C/text%3E%3C/svg%3E" />
+
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div id="app-root">
+    <div style="display:grid;place-items:center;min-height:100vh;gap:12px;font-family:system-ui,sans-serif">
+      <div style="font-size:1.4rem;font-weight:800">🎓 HSC Study Hub</div>
+      <div style="color:#888">Loading…</div>
+    </div>
+  </div>
+
+  <noscript>
+    <div style="max-width:560px;margin:60px auto;padding:24px;font-family:system-ui,sans-serif;text-align:center">
+      <h1>🎓 HSC Study Hub</h1>
+      <p>This app needs JavaScript enabled in your browser. Please turn it on and reload the page.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

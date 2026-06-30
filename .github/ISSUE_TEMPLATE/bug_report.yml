@@ -1,0 +1,53 @@
+name: 🐞 Bug report
+description: Something in the app is broken or behaving unexpectedly.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve the Study Hub! Please fill in the details below.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Dashboard
+        - Syllabus tracker
+        - Formula sheet
+        - Flashcards
+        - Pomodoro timer
+        - Textbook library
+        - Previous year papers
+        - GPA / percentage calculator
+        - Sign in / account / sync
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What went wrong?
+      description: A clear description of the bug.
+      placeholder: When I clicked … the app …
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See error
+  - type: input
+    id: device
+    attributes:
+      label: Device & browser
+      placeholder: e.g. Android Chrome / Windows Edge / iPhone Safari
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true

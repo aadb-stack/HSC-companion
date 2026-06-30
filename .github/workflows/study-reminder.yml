@@ -1,0 +1,75 @@
+name: Weekly study reminder
+
+# Every Monday morning this opens a friendly GitHub Issue with a study
+# checklist for the week. It's a zero-cost reminder system that "lives" in the
+# repo — students who Watch the repo get a notification. It also tidies up by
+# closing last week's reminder first.
+on:
+  schedule:
+    - cron: "30 2 * * 1" # 02:30 UTC every Monday (≈08:00 IST)
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create weekly reminder issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const label = "study-reminder";
+
+            // Make sure the label exists (ignore "already exists" errors).
+            try {
+              await github.rest.issues.createLabel({
+                owner: context.repo.owner, repo: context.repo.repo,
+                name: label, color: "6c5ce7",
+                description: "Automated weekly study reminders",
+              });
+            } catch (e) { /* label already exists */ }
+
+            // Close any previous open reminders to avoid clutter.
+            const prev = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: "open", labels: label, per_page: 50,
+            });
+            for (const issue of prev.data) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: issue.number, state: "closed",
+              });
+            }
+
+            const today = new Date();
+            const week = today.toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
+
+            const body = [
+              `## 📚 Your HSC study plan — week of ${week}`,
+              ``,
+              `A new week, a fresh start. Pick 3–4 focus areas and tick them off as you go 👇`,
+              ``,
+              `### This week's checklist`,
+              `- [ ] Complete **2 new chapters** in your weakest subject`,
+              `- [ ] Revise **1 finished chapter** (active recall, no peeking)`,
+              `- [ ] Solve **1 previous-year question paper** under timed conditions`,
+              `- [ ] Make **10 new flashcards** for tricky formulas/definitions`,
+              `- [ ] Do **5 Pomodoro focus sessions** (≈2 hours of deep work)`,
+              `- [ ] Update your progress in the Study Hub dashboard`,
+              ``,
+              `### Reminders`,
+              `- 🧮 Stuck on a formula? Open the in-app **Formula sheet**.`,
+              `- 📄 Practise with **official board papers** from the Past Papers page.`,
+              `- 😴 Sleep > cramming. Consistency beats marathon sessions.`,
+              ``,
+              `> _This reminder was generated automatically. Close it when you're done for the week!_`,
+            ].join("\n");
+
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: `📌 Study plan — week of ${week}`,
+              body, labels: [label],
+            });
+            core.info("Created weekly reminder issue.");

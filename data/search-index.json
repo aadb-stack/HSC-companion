@@ -1,0 +1,2942 @@
+{
+  "generatedAt": "2026-06-30T19:10:03+00:00",
+  "count": 367,
+  "items": [
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Moment of inertia",
+      "sub": "I = Σ mᵢ rᵢ²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Radius of gyration",
+      "sub": "K = √(I / M)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Angular momentum",
+      "sub": "L = I ω",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Torque",
+      "sub": "τ = I α",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Rotational K.E.",
+      "sub": "KE = ½ I ω²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Centripetal force",
+      "sub": "F = m v² / r = m ω² r",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Banking angle (no friction)",
+      "sub": "tan θ = v² / (r g)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Conical pendulum period",
+      "sub": "T = 2π √(L cosθ / g)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "K.E. of rolling body",
+      "sub": "KE = ½ m v² (1 + K²/R²)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "M.I. of standard bodies",
+      "sub": "Ring MR²,  Disc ½MR²,  Solid sphere ⅖MR²,  Rod ML²/12",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Pressure at depth",
+      "sub": "P = P₀ + h ρ g",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Surface tension",
+      "sub": "T = F / L",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Excess pressure (drop)",
+      "sub": "P = 2T / r",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Excess pressure (bubble)",
+      "sub": "P = 4T / r",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Capillary rise",
+      "sub": "h = 2T cosθ / (r ρ g)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Stokes' law",
+      "sub": "F = 6π η r v",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Terminal velocity",
+      "sub": "v = 2 r² (ρ − σ) g / (9 η)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Equation of continuity",
+      "sub": "A₁ v₁ = A₂ v₂",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Bernoulli's equation",
+      "sub": "P + ½ ρ v² + ρ g h = constant",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Reynolds number",
+      "sub": "Re = ρ v d / η",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Ideal gas equation",
+      "sub": "P V = n R T",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Pressure of gas",
+      "sub": "P = ⅓ ρ c̄²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Mean K.E. per molecule",
+      "sub": "KE = (3/2) k T",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "RMS speed",
+      "sub": "v_rms = √(3RT/M) = √(3kT/m)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Mean free path",
+      "sub": "λ = k T / (√2 π d² P)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Stefan–Boltzmann law",
+      "sub": "Q = ε σ A T⁴",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Wien's displacement law",
+      "sub": "λ_m T = b",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Kirchhoff's law of radiation",
+      "sub": "a = e",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "First law",
+      "sub": "Q = ΔU + W",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Work done (isobaric)",
+      "sub": "W = P ΔV",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Work done (isothermal)",
+      "sub": "W = n R T ln(V₂/V₁)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Mayer's relation",
+      "sub": "Cp − Cv = R",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Adiabatic process",
+      "sub": "P V^γ = constant",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Heat engine efficiency",
+      "sub": "η = 1 − Q₂/Q₁ = W/Q₁",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Carnot efficiency",
+      "sub": "η = 1 − T₂/T₁",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "COP of refrigerator",
+      "sub": "K = T₂ / (T₁ − T₂)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Displacement in SHM",
+      "sub": "x = A sin(ωt + φ)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Velocity in SHM",
+      "sub": "v = ω √(A² − x²)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Acceleration in SHM",
+      "sub": "a = − ω² x",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Period (spring)",
+      "sub": "T = 2π √(m / k)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Simple pendulum",
+      "sub": "T = 2π √(L / g)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Total energy in SHM",
+      "sub": "E = ½ m ω² A² = ½ k A²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Wave speed",
+      "sub": "v = f λ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Speed on a string",
+      "sub": "v = √(T / μ)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "String harmonics",
+      "sub": "fₙ = n v / 2L",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Open pipe",
+      "sub": "fₙ = n v / 2L",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Closed pipe",
+      "sub": "fₙ = (2n − 1) v / 4L",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Beats",
+      "sub": "f_beat = | f₁ − f₂ |",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Constructive interference",
+      "sub": "Δ = n λ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Destructive interference",
+      "sub": "Δ = (2n − 1) λ / 2",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Fringe width (YDSE)",
+      "sub": "β = λ D / d",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Brewster's law",
+      "sub": "tan θ_p = μ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Malus's law",
+      "sub": "I = I₀ cos²θ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Coulomb's law",
+      "sub": "F = (1/4πε₀) · q₁q₂ / r²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Electric field (point charge)",
+      "sub": "E = (1/4πε₀) · q / r²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Electric potential",
+      "sub": "V = (1/4πε₀) · q / r",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Dipole moment",
+      "sub": "p = q × 2l",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Torque on a dipole",
+      "sub": "τ = p E sinθ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Parallel-plate capacitance",
+      "sub": "C = κ ε₀ A / d",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Energy in a capacitor",
+      "sub": "U = ½ C V² = Q² / 2C",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Gauss's law",
+      "sub": "Φ = q_enclosed / ε₀",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Ohm's law",
+      "sub": "V = I R",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Resistance of a wire",
+      "sub": "R = ρ L / A",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Drift velocity",
+      "sub": "I = n A e v_d",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Wheatstone bridge (balanced)",
+      "sub": "P / Q = R / S",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "EMF and terminal P.D.",
+      "sub": "E = V + I r",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Resistors in series / parallel",
+      "sub": "R_s = ΣRᵢ ,  1/R_p = Σ 1/Rᵢ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Biot–Savart law",
+      "sub": "dB = (μ₀/4π) · I dl sinθ / r²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Field near a long wire",
+      "sub": "B = μ₀ I / (2π r)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Field at centre of loop",
+      "sub": "B = μ₀ I / (2R)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Field inside a solenoid",
+      "sub": "B = μ₀ n I",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Force on a conductor",
+      "sub": "F = B I L sinθ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Force on a moving charge",
+      "sub": "F = q v B sinθ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Cyclotron frequency",
+      "sub": "f = q B / (2π m)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Magnetic susceptibility",
+      "sub": "χ = M / H ,  μ_r = 1 + χ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Magnetic flux",
+      "sub": "Φ = B A cosθ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Faraday's law",
+      "sub": "e = − N dΦ/dt",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Motional EMF",
+      "sub": "e = B L v",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Self inductance",
+      "sub": "e = − L dI/dt ,  U = ½ L I²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "RMS values",
+      "sub": "I_rms = I₀/√2 ,  V_rms = V₀/√2",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Reactances",
+      "sub": "X_L = ωL ,  X_C = 1/(ωC)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Impedance (LCR)",
+      "sub": "Z = √(R² + (X_L − X_C)²)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Resonant frequency",
+      "sub": "f₀ = 1 / (2π √(LC))",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "AC power",
+      "sub": "P = V_rms I_rms cosφ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Photon energy",
+      "sub": "E = h ν = h c / λ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Photoelectric equation",
+      "sub": "KE_max = h ν − φ₀",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Stopping potential",
+      "sub": "e V₀ = KE_max",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "de Broglie wavelength",
+      "sub": "λ = h / p = h / √(2 m KE)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Bohr energy levels",
+      "sub": "Eₙ = − 13.6 / n²  eV",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Rydberg formula",
+      "sub": "1/λ = R (1/n₁² − 1/n₂²)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Nuclear radius",
+      "sub": "R = R₀ A^(1/3)",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Radioactive decay",
+      "sub": "N = N₀ e^(−λt) ,  T½ = 0.693/λ",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Mass–energy",
+      "sub": "E = m c²",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Transistor currents",
+      "sub": "I_E = I_B + I_C ,  β = I_C/I_B",
+      "hash": "#/formulas/physics"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Density of unit cell",
+      "sub": "ρ = (z · M) / (a³ · N_A)",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Atoms per unit cell",
+      "sub": "SC = 1 ,  BCC = 2 ,  FCC = 4",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Edge–radius relation",
+      "sub": "SC a=2r ,  BCC √3a=4r ,  FCC √2a=4r",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Packing efficiency",
+      "sub": "SC 52.4% ,  BCC 68% ,  FCC/HCP 74%",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Molarity",
+      "sub": "M = moles of solute / litre of solution",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Molality",
+      "sub": "m = moles of solute / kg of solvent",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Raoult's law",
+      "sub": "p = p° · x_solvent",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Elevation in boiling point",
+      "sub": "ΔT_b = K_b · m",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Depression in freezing point",
+      "sub": "ΔT_f = K_f · m",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Osmotic pressure",
+      "sub": "π = (n/V) R T = C R T",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "van't Hoff factor",
+      "sub": "i = observed / normal colligative property",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Ionic product of water",
+      "sub": "K_w = [H⁺][OH⁻] = 10⁻¹⁴",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "pH and pOH",
+      "sub": "pH = − log[H⁺] ,  pH + pOH = 14",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Ostwald's dilution law",
+      "sub": "K_a = c α² / (1 − α)",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Henderson equation",
+      "sub": "pH = pK_a + log([salt]/[acid])",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Solubility product",
+      "sub": "K_sp = [Aⁿ⁺][Bⁿ⁻]",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "First law",
+      "sub": "ΔU = Q + W",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Enthalpy",
+      "sub": "ΔH = ΔU + Δn_g R T",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Gibbs free energy",
+      "sub": "ΔG = ΔH − T ΔS",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Free energy & equilibrium",
+      "sub": "ΔG° = − R T ln K",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Entropy change",
+      "sub": "ΔS = Q_rev / T",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Nernst equation",
+      "sub": "E = E° − (0.0592/n) log Q",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Cell EMF",
+      "sub": "E°cell = E°cathode − E°anode",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Gibbs energy of cell",
+      "sub": "ΔG° = − n F E°cell",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Molar conductivity",
+      "sub": "Λ_m = κ × 1000 / c",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Faraday's law",
+      "sub": "m = (M · I · t) / (n · F)",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "EMF & equilibrium constant",
+      "sub": "log K = n E° / 0.0592",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Rate law",
+      "sub": "Rate = k [A]^x [B]^y",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "First-order rate constant",
+      "sub": "k = (2.303/t) log([A]₀/[A])",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "First-order half-life",
+      "sub": "t½ = 0.693 / k",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Zero-order rate constant",
+      "sub": "k = ([A]₀ − [A]) / t",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Arrhenius equation",
+      "sub": "k = A e^(−Ea/RT)",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Arrhenius (two temps)",
+      "sub": "log(k₂/k₁) = (Ea/2.303R)(1/T₁ − 1/T₂)",
+      "hash": "#/formulas/chemistry"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Pythagorean identities",
+      "sub": "sin²θ + cos²θ = 1 ;  1 + tan²θ = sec²θ",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Compound angles",
+      "sub": "sin(A±B) = sinA cosB ± cosA sinB",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Inverse relation",
+      "sub": "sin⁻¹x + cos⁻¹x = π/2",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Sine rule",
+      "sub": "a/sinA = b/sinB = c/sinC = 2R",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Cosine rule",
+      "sub": "c² = a² + b² − 2ab cosC",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Inverse of a matrix",
+      "sub": "A⁻¹ = adj(A) / |A|",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Reversal law",
+      "sub": "(AB)⁻¹ = B⁻¹ A⁻¹",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Identity property",
+      "sub": "A A⁻¹ = A⁻¹ A = I",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Dot product",
+      "sub": "a · b = |a| |b| cosθ",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Cross product",
+      "sub": "|a × b| = |a| |b| sinθ",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Projection of a on b",
+      "sub": "(a · b) / |b|",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Scalar triple product",
+      "sub": "[a b c] = a · (b × c)",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Area of triangle",
+      "sub": "Area = ½ |a × b|",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Power rule",
+      "sub": "d/dx (xⁿ) = n x^(n−1)",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Product rule",
+      "sub": "(uv)' = u'v + uv'",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Quotient rule",
+      "sub": "(u/v)' = (u'v − uv') / v²",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Chain rule",
+      "sub": "dy/dx = (dy/du)(du/dx)",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Standard derivatives",
+      "sub": "d/dx(eˣ)=eˣ ,  d/dx(ln x)=1/x ,  d/dx(sin x)=cos x",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Increasing / decreasing",
+      "sub": "f'(x) > 0 increasing ;  f'(x) < 0 decreasing",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Maxima / minima",
+      "sub": "f'(x)=0 ;  f''(x)<0 max, f''(x)>0 min",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Approximation",
+      "sub": "f(x+δx) ≈ f(x) + f'(x) δx",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Power rule",
+      "sub": "∫ xⁿ dx = x^(n+1)/(n+1) + c",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Reciprocal",
+      "sub": "∫ (1/x) dx = ln|x| + c",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Exponential & trig",
+      "sub": "∫eˣdx = eˣ ,  ∫sin x dx = −cos x",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Arctan form",
+      "sub": "∫ dx/(x²+a²) = (1/a) tan⁻¹(x/a) + c",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Arcsin form",
+      "sub": "∫ dx/√(a²−x²) = sin⁻¹(x/a) + c",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Integration by parts",
+      "sub": "∫ u v dx = u ∫v dx − ∫ (u' ∫v dx) dx",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Fundamental theorem",
+      "sub": "∫ₐᵇ f(x) dx = F(b) − F(a)",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Reflection property",
+      "sub": "∫₀ᵃ f(x)dx = ∫₀ᵃ f(a−x)dx",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Even / odd functions",
+      "sub": "∫₋ₐᵃ f = 2∫₀ᵃ f (even), 0 (odd)",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Variable separable",
+      "sub": "∫ dy/g(y) = ∫ f(x) dx",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Linear differential equation",
+      "sub": "dy/dx + P y = Q",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Integrating factor",
+      "sub": "I.F. = e^(∫P dx) ;  y·(I.F.) = ∫Q·(I.F.) dx",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Expected value",
+      "sub": "E(X) = Σ x · P(x)",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Variance",
+      "sub": "Var(X) = E(X²) − [E(X)]²",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Binomial probability",
+      "sub": "P(X=r) = ⁿCr pʳ q^(n−r)",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Binomial mean & variance",
+      "sub": "Mean = np ,  Variance = npq",
+      "hash": "#/formulas/maths"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Cost of goods sold",
+      "sub": "COGS = Opening Stock + Purchases + Direct Exp − Closing Stock",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Gross profit",
+      "sub": "Gross Profit = Net Sales − COGS",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Net sales",
+      "sub": "Net Sales = Sales − Sales Returns",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Gross profit ratio",
+      "sub": "GP Ratio = (Gross Profit / Net Sales) × 100",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Net profit ratio",
+      "sub": "NP Ratio = (Net Profit / Net Sales) × 100",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Current ratio",
+      "sub": "Current Ratio = Current Assets / Current Liabilities",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Liquid (quick) ratio",
+      "sub": "Liquid Ratio = Liquid Assets / Current Liabilities",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Stock turnover ratio",
+      "sub": "Stock Turnover = COGS / Average Stock",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Return on capital employed",
+      "sub": "ROCE = (Net Profit before Int. & Tax / Capital Employed) × 100",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Proprietary ratio",
+      "sub": "Proprietary Ratio = Proprietors' Funds / Total Assets",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Interest on capital",
+      "sub": "Interest = Capital × Rate × (Months/12)",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Gaining ratio",
+      "sub": "Gaining Ratio = New Ratio − Old Ratio",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Sacrifice ratio",
+      "sub": "Sacrifice Ratio = Old Ratio − New Ratio",
+      "hash": "#/formulas/accounts"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Commission",
+      "sub": "Commission = Rate × Sales / 100",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Discount (true)",
+      "sub": "True Discount = (Amount × r × t) / (100 + r t)",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Banker's discount",
+      "sub": "B.D. = Amount × r × t / 100",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Regression coefficient",
+      "sub": "b_yx = r · (σ_y / σ_x)",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Correlation & regression",
+      "sub": "r² = b_xy · b_yx",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Laspeyre's index",
+      "sub": "P₀₁ = (Σ p₁ q₀ / Σ p₀ q₀) × 100",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Paasche's index",
+      "sub": "P₀₁ = (Σ p₁ q₁ / Σ p₀ q₁) × 100",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Expected value",
+      "sub": "E(X) = Σ x · P(x)",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "formula",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Binomial distribution",
+      "sub": "P(X=r) = ⁿCr pʳ q^(n−r), Mean = np",
+      "hash": "#/formulas/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Rotational Dynamics",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Mechanical Properties of Fluids",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Kinetic Theory of Gases and Radiation",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Thermodynamics",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Oscillations",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Superposition of Waves",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Wave Optics",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Electrostatics",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Current Electricity",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Magnetic Fields due to Electric Current",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Magnetic Materials",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Electromagnetic Induction",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "AC Circuits",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Dual Nature of Radiation and Matter",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Structure of Atoms and Nuclei",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Semiconductor Devices",
+      "sub": "Physics · chapter",
+      "hash": "#/syllabus/physics"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Solid State",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Solutions",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Ionic Equilibria",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Chemical Thermodynamics",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Electrochemistry",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Chemical Kinetics",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Elements of Groups 16, 17 and 18",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Transition and Inner Transition Elements",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Coordination Compounds",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Halogen Derivatives",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Alcohols, Phenols and Ethers",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Amines",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Biomolecules",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Introduction to Polymer Chemistry",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Green Chemistry and Nanochemistry",
+      "sub": "Chemistry · chapter",
+      "hash": "#/syllabus/chemistry"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Mathematical Logic",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Matrices",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Trigonometric Functions",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Pair of Straight Lines",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Vectors",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Line and Plane",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Linear Programming",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Differentiation",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Applications of Derivatives",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Indefinite Integration",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Definite Integration",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Application of Definite Integration",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Differential Equations",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Probability Distributions",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Binomial Distribution",
+      "sub": "Mathematics & Statistics · chapter",
+      "hash": "#/syllabus/maths"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Reproduction in Lower and Higher Plants",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Reproduction in Lower and Higher Animals",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Inheritance and Variation",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Molecular Basis of Inheritance",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Origin and Evolution of Life",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Plant Water Relation",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Plant Growth and Mineral Nutrition",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Respiration and Circulation",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Control and Coordination",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Human Health and Diseases",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Enhancement in Food Production",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Biotechnology",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Organisms and Populations",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Ecosystems and Energy Flow",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Biodiversity, Conservation and Environmental Issues",
+      "sub": "Biology · chapter",
+      "hash": "#/syllabus/biology"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Introduction to Partnership and Partnership Final Accounts",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Accounts of 'Not for Profit' Concerns",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Reconstitution of Partnership (Admission of Partner)",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Reconstitution of Partnership (Retirement of Partner)",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Reconstitution of Partnership (Death of Partner)",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Dissolution of Partnership Firm",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Bills of Exchange",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Company Accounts - Issue of Shares",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Analysis of Financial Statements",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Computer in Accounting",
+      "sub": "Book-Keeping & Accountancy · chapter",
+      "hash": "#/syllabus/accounts"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Principles of Management",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Functions of Management",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Entrepreneurship Development",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Business Services",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Emerging Modes of Business",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Social Responsibilities of Business",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Consumer Protection",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Marketing",
+      "sub": "Organisation of Commerce & Management · chapter",
+      "hash": "#/syllabus/ocm"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Introduction to Micro and Macro Economics",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Utility Analysis",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Demand Analysis",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Elasticity of Demand",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Supply Analysis",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Forms of Market",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Index Numbers",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "National Income",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Public Finance in India",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Money Market and Capital Market in India",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Foreign Trade of India",
+      "sub": "Economics · chapter",
+      "hash": "#/syllabus/economics"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Introduction to Corporate Finance",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Sources of Corporate Finance",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Issue of Shares",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Issue of Debentures",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Deposits",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Correspondence with Members",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Correspondence with Debentureholders",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Correspondence with Depositors",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Depository System",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Dividend and Interest",
+      "sub": "Secretarial Practice · chapter",
+      "hash": "#/syllabus/sp"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Mathematical Logic",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Matrices",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Differentiation",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Applications of Derivatives",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Integration",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Definite Integration",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Ratio, Proportion and Partnership",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Commission, Brokerage and Discount",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Insurance and Annuity",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Linear Regression",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Time Series",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Index Numbers",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Linear Programming",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Assignment Problem and Sequencing",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Probability Distributions",
+      "sub": "Mathematics & Statistics (Commerce) · chapter",
+      "hash": "#/syllabus/maths_commerce"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "Renaissance in Europe and Development of Science",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "European Colonialism",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "India and European Colonialism",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "The Anti-Colonial Struggle in India",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "India: Achieving Independence",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "World Wars and India",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "The Cold War",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "India after Independence",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "Decolonisation to the Modern World",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "World in the Twentieth Century",
+      "sub": "History · chapter",
+      "hash": "#/syllabus/history"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "The Post World War Era (1945 to 1991)",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "Contemporary World (1991 onwards)",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "Major Issues in the Post Cold War Era",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "India's Foreign Policy",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "India and the World",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "Globalisation and India",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "Good Governance",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "International Organisations",
+      "sub": "Political Science · chapter",
+      "hash": "#/syllabus/polsci"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Population: Part 1 (Distribution and Density)",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Population: Part 2 (Migration and Composition)",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Human Settlements and Land Use",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Primary Economic Activities",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Secondary Economic Activities",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Tertiary and Quaternary Economic Activities",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Trade and Commerce",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Transport and Communication",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Tourism",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Geographic Information System (GIS)",
+      "sub": "Geography · chapter",
+      "hash": "#/syllabus/geography"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Introduction to Indian Society",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Diversity and Unity in Indian Society",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Social Stratification",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Social Institutions",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Social Change in India",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Social Movements",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Major Social Problems in India",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Globalisation and Society",
+      "sub": "Sociology · chapter",
+      "hash": "#/syllabus/sociology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Intelligence",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Personality",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Stress and Health",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Psychological Disorders",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Emotions",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Psychology of Social Behaviour",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Healthy Mind",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Psychology and Modern Life",
+      "sub": "Psychology · chapter",
+      "hash": "#/syllabus/psychology"
+    },
+    {
+      "type": "chapter",
+      "subject": "english",
+      "subjectName": "English",
+      "title": "Section 1: Prose",
+      "sub": "English (Yuvakbharati) · chapter",
+      "hash": "#/syllabus/english"
+    },
+    {
+      "type": "chapter",
+      "subject": "english",
+      "subjectName": "English",
+      "title": "Section 2: Poetry",
+      "sub": "English (Yuvakbharati) · chapter",
+      "hash": "#/syllabus/english"
+    },
+    {
+      "type": "chapter",
+      "subject": "english",
+      "subjectName": "English",
+      "title": "Section 3: Writing Skills",
+      "sub": "English (Yuvakbharati) · chapter",
+      "hash": "#/syllabus/english"
+    },
+    {
+      "type": "chapter",
+      "subject": "english",
+      "subjectName": "English",
+      "title": "Section 4: Genre - Novel",
+      "sub": "English (Yuvakbharati) · chapter",
+      "hash": "#/syllabus/english"
+    },
+    {
+      "type": "chapter",
+      "subject": "english",
+      "subjectName": "English",
+      "title": "Grammar and Vocabulary",
+      "sub": "English (Yuvakbharati) · chapter",
+      "hash": "#/syllabus/english"
+    },
+    {
+      "type": "chapter",
+      "subject": "english",
+      "subjectName": "English",
+      "title": "Oral / Listening Skills",
+      "sub": "English (Yuvakbharati) · chapter",
+      "hash": "#/syllabus/english"
+    },
+    {
+      "type": "textbook",
+      "subject": "physics",
+      "subjectName": "Physics",
+      "title": "Physics — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "chemistry",
+      "subjectName": "Chemistry",
+      "title": "Chemistry — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "maths",
+      "subjectName": "Mathematics & Statistics",
+      "title": "Mathematics & Statistics (Part I & II) — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "biology",
+      "subjectName": "Biology",
+      "title": "Biology — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "accounts",
+      "subjectName": "Book-Keeping & Accountancy",
+      "title": "Book-Keeping and Accountancy — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "ocm",
+      "subjectName": "Organisation of Commerce & Management",
+      "title": "Organisation of Commerce and Management — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "economics",
+      "subjectName": "Economics",
+      "title": "Economics — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "sp",
+      "subjectName": "Secretarial Practice",
+      "title": "Secretarial Practice — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "maths_commerce",
+      "subjectName": "Mathematics & Statistics (Commerce)",
+      "title": "Mathematics & Statistics (Commerce) Part I & II — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "history",
+      "subjectName": "History",
+      "title": "History — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "polsci",
+      "subjectName": "Political Science",
+      "title": "Political Science — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "geography",
+      "subjectName": "Geography",
+      "title": "Geography — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "sociology",
+      "subjectName": "Sociology",
+      "title": "Sociology — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "psychology",
+      "subjectName": "Psychology",
+      "title": "Psychology — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    },
+    {
+      "type": "textbook",
+      "subject": "english",
+      "subjectName": "English",
+      "title": "Yuvakbharati English — Std. XII (Balbharati)",
+      "sub": "Official textbook",
+      "hash": "#/textbooks"
+    }
+  ]
+}

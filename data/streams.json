@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "board": "Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)",
+    "class": "HSC (Std. XII)",
+    "academicYear": "2025-26",
+    "note": "Subject lists reflect the official MSBSHSE Std. XII structure. Edit this file (and submit a Content Correction issue) to refine."
+  },
+  "streams": [
+    {
+      "id": "science",
+      "name": "Science",
+      "icon": "🔬",
+      "color": "#4f86f7",
+      "description": "Physics, Chemistry, Mathematics and Biology with practicals.",
+      "subjects": [
+        { "id": "physics", "name": "Physics", "icon": "⚛️", "hasFormulas": true, "marks": { "theory": 70, "practical": 30 } },
+        { "id": "chemistry", "name": "Chemistry", "icon": "⚗️", "hasFormulas": true, "marks": { "theory": 70, "practical": 30 } },
+        { "id": "maths", "name": "Mathematics & Statistics", "icon": "📐", "hasFormulas": true, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "biology", "name": "Biology", "icon": "🧬", "hasFormulas": false, "marks": { "theory": 70, "practical": 30 } },
+        { "id": "english", "name": "English", "icon": "📘", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } }
+      ]
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce",
+      "icon": "📊",
+      "color": "#34c98a",
+      "description": "Accountancy, Organisation of Commerce, Economics and Secretarial Practice.",
+      "subjects": [
+        { "id": "accounts", "name": "Book-Keeping & Accountancy", "icon": "📒", "hasFormulas": true, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "ocm", "name": "Organisation of Commerce & Management", "icon": "🏢", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "economics", "name": "Economics", "icon": "📈", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "sp", "name": "Secretarial Practice", "icon": "🗂️", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "maths_commerce", "name": "Mathematics & Statistics (Commerce)", "icon": "🧮", "hasFormulas": true, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "english", "name": "English", "icon": "📘", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } }
+      ]
+    },
+    {
+      "id": "arts",
+      "name": "Arts",
+      "icon": "🎨",
+      "color": "#f4a23b",
+      "description": "History, Political Science, Geography, Sociology, Psychology and Economics.",
+      "subjects": [
+        { "id": "history", "name": "History", "icon": "🏛️", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "polsci", "name": "Political Science", "icon": "⚖️", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "geography", "name": "Geography", "icon": "🌏", "hasFormulas": false, "marks": { "theory": 70, "practical": 30 } },
+        { "id": "sociology", "name": "Sociology", "icon": "👥", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "psychology", "name": "Psychology", "icon": "🧠", "hasFormulas": false, "marks": { "theory": 70, "practical": 30 } },
+        { "id": "economics", "name": "Economics", "icon": "📈", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } },
+        { "id": "english", "name": "English", "icon": "📘", "hasFormulas": false, "marks": { "theory": 80, "practical": 20 } }
+      ]
+    }
+  ]
+}

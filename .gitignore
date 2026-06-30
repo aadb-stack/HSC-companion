@@ -1,0 +1,23 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python (for the helper scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (only if you add tooling later)
+node_modules/
+
+# Local env / secrets — NEVER commit real secrets.
+# (Note: firebase-config.js holds PUBLIC web keys and IS committed on purpose.)
+.env
+.env.local
+
+# Release scratch file produced by the release workflow
+release-notes.md

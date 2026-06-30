@@ -1,0 +1,32 @@
+name: 💡 Feature request
+description: Suggest a new feature or improvement for the Study Hub.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like the app to do?
+      placeholder: It would help if the app could …
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful?
+      placeholder: This would help students who …
+  - type: dropdown
+    id: area
+    attributes:
+      label: Related area
+      options:
+        - Dashboard
+        - Syllabus tracker
+        - Formula sheet
+        - Flashcards
+        - Pomodoro timer
+        - Textbooks / papers
+        - Calculator
+        - New feature
+        - Other

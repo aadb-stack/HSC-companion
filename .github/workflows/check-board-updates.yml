@@ -1,0 +1,43 @@
+name: Check official board sources
+
+# A scheduled "watcher". Once a day it fetches the official Maharashtra board /
+# Balbharati pages listed in data/board-links.json, and if any of them changed
+# since last time, it commits the updated file (with a fresh timestamp and a
+# "notice"). The app then shows a 🔔 flag on the Textbooks page.
+#
+# Days with no changes produce no commit — the script leaves the file untouched.
+on:
+  schedule:
+    - cron: "30 1 * * *" # 01:30 UTC daily (≈07:00 IST)
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check board sources for updates
+        run: python3 scripts/check_board_updates.py
+
+      - name: Commit changes (only if something changed)
+        run: |
+          if [[ -n "$(git status --porcelain data/board-links.json)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/board-links.json
+            git commit -m "chore: detected update on official board source(s) [skip ci]"
+            git push
+            echo "✅ Committed updated board-links.json"
+          else
+            echo "ℹ No changes to commit."
+          fi
