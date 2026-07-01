@@ -1,9 +1,9 @@
 {
   "meta": {
     "description": "Official Maharashtra board sources. This file is automatically re-checked and timestamped by the 'check-board-updates' GitHub Action. When the workflow detects a change on a watched page, it updates the relevant entry and commits it.",
-    "lastChecked": "2026-06-30T00:00:00Z",
-    "lastCheckedBy": "manual-seed",
-    "autoUpdated": false
+    "lastChecked": "2026-07-01T05:57:36+00:00",
+    "lastCheckedBy": "github-actions",
+    "autoUpdated": true
   },
   "sources": [
     {
@@ -12,7 +12,7 @@
       "url": "https://mahahsscboard.in/",
       "category": "board",
       "status": "active",
-      "lastSeenHash": null
+      "lastSeenHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "id": "msbshse-main",
@@ -28,7 +28,7 @@
       "url": "https://ebalbharati.in/",
       "category": "textbooks",
       "status": "active",
-      "lastSeenHash": null
+      "lastSeenHash": "7a4e61f8ed5e33543d16cab932f9131ef3f832c6002b070fad88e7392df1e173"
     },
     {
       "id": "ebalbharati-ebooks",
