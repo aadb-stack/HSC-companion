@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "Official Maharashtra board sources. This file is automatically re-checked and timestamped by the 'check-board-updates' GitHub Action. When the workflow detects a change on a watched page, it updates the relevant entry and commits it.",
-    "lastChecked": "2026-08-01T04:45:54+00:00",
+    "lastChecked": "2026-09-01T06:22:16+00:00",
     "lastCheckedBy": "github-actions",
     "autoUpdated": true
   },
@@ -28,7 +28,7 @@
       "url": "https://ebalbharati.in/",
       "category": "textbooks",
       "status": "active",
-      "lastSeenHash": "899481c7b39c168f8a0172076dbd639bceba6811cbe757deebab87256b101c8b"
+      "lastSeenHash": "7a4e61f8ed5e33543d16cab932f9131ef3f832c6002b070fad88e7392df1e173"
     },
     {
       "id": "ebalbharati-ebooks",
@@ -48,6 +48,13 @@
     }
   ],
   "notices": [
+    {
+      "sourceId": "ebalbharati",
+      "name": "Balbharati — official textbooks & model papers",
+      "url": "https://ebalbharati.in/",
+      "detectedAt": "2026-09-01T06:22:16+00:00",
+      "message": "Content changed on Balbharati — official textbooks & model papers — check for new notices/papers."
+    },
     {
       "sourceId": "ebalbharati",
       "name": "Balbharati — official textbooks & model papers",
